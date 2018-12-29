@@ -1,4 +1,3 @@
-
 const people = [
   '박소연',
   '이로히',
@@ -13,10 +12,15 @@ const people = [
 
 let num = Math.floor(Math.random() * people.length);
 
-const name = '조애리';
+const name = ['조애리', '이윤희', '이한영'];
+const count = 3;
+const result = []
 
-while (people[num] === name) {
-  num = Math.floor(Math.random() * people.length);
+for (let i = 0; i < count; i += 1) { 
+  while (name.indexOf(people[num]) > -1 || result.indexOf(people[num]) > -1) {
+    num = Math.floor(Math.random() * people.length);
+  }
+  result.push(people[num]);
 }
 
-console.log(people[num]);
+console.log(result);
