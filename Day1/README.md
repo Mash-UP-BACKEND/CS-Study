@@ -20,3 +20,11 @@
 - 알고리즘 문제 풀이
   - [binary-tree-paths](https://leetcode.com/problems/binary-tree-paths/)
   - [3sum](https://leetcode.com/problems/3sum/)
+
+## 참여자
+- 이윤희
+- 정성민
+- 조애리
+- 이로히
+- 박소연
+- 천이수
